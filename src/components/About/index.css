@@ -1,0 +1,84 @@
+.about-wrapper {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 80px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 700px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 10px;
+}
+
+.sub-heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #666666;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.main-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project-entry {
+  padding-left: 20px;
+  border-left: 1px solid #dddddd;
+  transition: border-color 0.2s ease;
+}
+
+.project-entry:hover {
+  border-left-color: #000000;
+}
+
+.project-entry h3 {
+  font-size: 1.1rem;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.project-entry p {
+  font-size: 0.95rem;
+  color: #555555;
+  margin: 0;
+}
+
+.about-footer {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #eeeeee;
+  font-size: 0.9rem;
+  color: #777777;
+  max-width: 500px;
+}
+
+@media (max-width: 600px) {
+  .about-wrapper {
+    padding: 40px 20px;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+}

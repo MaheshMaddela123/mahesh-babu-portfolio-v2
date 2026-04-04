@@ -1,0 +1,85 @@
+.skills-page-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.skills-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-header h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.skills-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+.frontend-skills-wrapper {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #2c3e50;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.frontend-skills-wrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.skill-tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the tags */
+    gap: 15px;
+}
+.skill-tags.large-tags .skill-tag {
+    background-color: #f4f6f8;
+    color: #34495e;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 1px solid #e1e4e8;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    cursor: default;
+}
+
+.skill-tags.large-tags .skill-tag:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .skills-page-container {
+        padding: 20px;
+    }
+
+    .frontend-skills-wrapper {
+        padding: 25px;
+    }
+
+    .skills-header h2 {
+        font-size: 2rem;
+    }
+
+    .skill-tags.large-tags .skill-tag {
+        font-size: 1rem;
+        padding: 10px 18px;
+    }
+}

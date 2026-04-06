@@ -51,7 +51,7 @@ const Contact = () => {
 
           <div className="social-links">
             <a
-              href="https://github.com/MaheshMaddela123"
+              href="https://www.linkedin.com/in/mahesh-babu-maddela/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-btn"
@@ -59,7 +59,7 @@ const Contact = () => {
               LinkedIn
             </a>
             <a
-              href="https://www.linkedin.com/in/mahesh-babu-maddela/"
+              href="https://github.com/MaheshMaddela123"
               target="_blank"
               rel="noopener noreferrer"
               className="social-btn"

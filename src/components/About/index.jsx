@@ -25,8 +25,8 @@ const About = () => {
               <p>A full-featured rental site built with EJS, Node.js, Express, and MongoDB.</p>
             </div>
             <div className="project-entry">
-              <h3>StudyHub</h3>
-              <p>MERN Stack Intelligent Exam Preparation Platform for final year research.</p>
+              <h3>Personal Portfolio</h3>
+              <p>Showcase projects and skills built with React.js.</p>
             </div>
           </div>
         </section>

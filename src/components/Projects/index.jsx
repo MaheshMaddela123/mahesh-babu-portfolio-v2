@@ -1,15 +1,14 @@
 import "./index.css";
 
 const Projects = () => {
-  // Array containing your project details for easy rendering and maintenance
   const projectList = [
     {
-      id: 1,
-      title: "StudyHub - Intelligent Exam Preparation",
-      tagline: "Final Year Project",
-      techStack: ["MongoDB", "Express.js", "React.js", "Node.js"],
+      id: 3,
+      title: "Digital Detox Tracker",
+      tagline: "Wellness Web Application",
+      techStack: ["HTML5", "CSS3", "JavaScript", "REST APIs"],
       description:
-        "A collaborative and highly personalized learning platform designed for students tackling competitive exams (GATE, UPSC, JEE, NEET). Features include comprehensive progress tracking, multi-exam selection options, and an intelligent peer recommendation engine to connect like-minded learners.",
+        "A responsive web application helping users monitor digital habits and set wellness goals. Features a seamless light/dark mode toggle using CSS variables, real-time form validation with Vanilla JS, and dynamic book recommendations via a third-party REST API integrated through a CORS proxy.",
     },
     {
       id: 2,
@@ -20,12 +19,12 @@ const Projects = () => {
         "A full-featured rental marketplace built with a clean MVC architecture. It supports property listings, booking flows, robust user authentication, and community reviews. Includes advanced location filtering, dynamic image gallery uploads, and personalized wishlists.",
     },
     {
-      id: 3,
-      title: "Digital Detox Tracker",
-      tagline: "Wellness Web Application",
-      techStack: ["HTML5", "CSS3", "JavaScript", "REST APIs"],
+      id: 1,
+      title: "Personal Portfolio",
+      tagline: "Reactjs Web Application",
+      techStack: ["React.js"],
       description:
-        "A responsive web application helping users monitor digital habits and set wellness goals. Features a seamless light/dark mode toggle using CSS variables, real-time form validation with Vanilla JS, and dynamic book recommendations via a third-party REST API integrated through a CORS proxy.",
+        "Developed a responsive portfolio web application to showcase projects and skills using React.js. Implemented component-based architecture, client-side routing with React Router, and optimized performance using Vite. Designed a clean, ensuring cross-device compatibility and reusable components.",
     },
   ];
 

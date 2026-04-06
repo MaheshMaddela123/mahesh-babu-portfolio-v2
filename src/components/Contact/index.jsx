@@ -50,9 +50,8 @@ const Contact = () => {
           </ul>
 
           <div className="social-links">
-            {/* Replace '#' with your actual profile links */}
             <a
-              href="#"
+              href="https://github.com/MaheshMaddela123"
               target="_blank"
               rel="noopener noreferrer"
               className="social-btn"
@@ -60,7 +59,7 @@ const Contact = () => {
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/mahesh-babu-maddela/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-btn"

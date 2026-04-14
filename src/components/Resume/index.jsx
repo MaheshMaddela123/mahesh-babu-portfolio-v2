@@ -26,10 +26,7 @@ const Resume = () => {
           core programming principles. Skilled in building responsive,
           user-friendly web applications and writing clean, maintainable code.
           Quick learner with the ability to adapt to new technologies and
-          frameworks. Demonstrates strong problem-solving, analytical thinking,
-          and communication skills. Passionate about developing efficient
-          software solutions and contributing effectively in fast-paced
-          development environments.
+          frameworks.
         </p>
       </section>
 

@@ -5,7 +5,7 @@ const Resume = () => {
     <div className="resume-container">
       <div className="action-bar">
         <a
-          href="https://drive.google.com/file/d/1iNdLgRrFEiHvXfvZZzvIkTIe9DbP9scf/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1Fn93AaCVDkuT0iTEEAoKhkru4i1OecJW/view?usp=sharing"
           target="_blank"
         >
           <button className="download-btn">Download PDF</button>

@@ -12,7 +12,7 @@ const HeroLeftSide = () => {
           <p className="para">Front-End Developer & Full Stack Developer</p>
         </div>
         <div className="btn-container">
-          <a href="https://drive.google.com/file/d/1iNdLgRrFEiHvXfvZZzvIkTIe9DbP9scf/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1Fn93AaCVDkuT0iTEEAoKhkru4i1OecJW/view?usp=sharing" target="_blank">
             <button className="btn1">Download Resume</button>
           </a>
           <button className="btn2">Get in Touch!</button>

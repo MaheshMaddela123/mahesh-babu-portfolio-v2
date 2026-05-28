@@ -8,17 +8,36 @@ const HeroLeftSide = () => {
           <div className="hello">
             <h2>Hello</h2>
           </div>
-          <h1>I'm <span className="username">Maddela Mahesh Babu</span>🙌</h1>
-          <p className="para">Front-End Developer & Full Stack Developer</p>
+
+          <h1>
+            I'm <span className="username">Maddela Mahesh Babu</span>🙌
+          </h1>
+
+          <p className="para">
+            Front-End Developer & Full Stack Developer
+          </p>
         </div>
+
         <div className="btn-container">
-          <a href="https://drive.google.com/file/d/1Fn93AaCVDkuT0iTEEAoKhkru4i1OecJW/view?usp=sharing" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1Fn93AaCVDkuT0iTEEAoKhkru4i1OecJW/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="btn1">Download Resume</button>
           </a>
-          <button className="btn2">Get in Touch!</button>
+
+          <a
+            href="https://www.linkedin.com/in/mahesh-babu-maddela/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn2">Get in Touch!</button>
+          </a>
         </div>
       </div>
     </>
   );
 };
+
 export default HeroLeftSide;

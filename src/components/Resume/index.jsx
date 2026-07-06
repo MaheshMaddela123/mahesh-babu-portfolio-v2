@@ -7,6 +7,7 @@ const Resume = () => {
         <a
           href="https://drive.google.com/file/d/1Fn93AaCVDkuT0iTEEAoKhkru4i1OecJW/view?usp=sharing"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <button className="download-btn">Download PDF</button>
         </a>
@@ -14,19 +15,37 @@ const Resume = () => {
 
       <header className="resume-header">
         <h1>Maddela Mahesh Babu</h1>
-        <p>Kadapa, AP | maddelamaheshbabu1234@gmail.com | +91 9110305805</p>
-        <p>LinkedIn | GitHub</p>
+        <p>Kadapa, Andhra Pradesh</p>
+        <p>maddelamaheshbabu1234@gmail.com | +91 9110305805</p>
+
+        <p>
+          <a
+            href="https://www.linkedin.com/in/your-linkedin-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://github.com/MaheshMaddela123"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </p>
       </header>
 
       <section className="resume-section">
         <h2>Summary</h2>
         <p>
-          Detail-oriented Computer Science B.Tech graduate with strong
-          proficiency in HTML, CSS, and JavaScript, and a solid foundation in
-          core programming principles. Skilled in building responsive,
-          user-friendly web applications and writing clean, maintainable code.
-          Quick learner with the ability to adapt to new technologies and
-          frameworks.
+          Detail-oriented Frontend Developer with a strong foundation in
+          JavaScript, React.js, and modern web technologies. Experienced in
+          developing responsive, user-friendly web applications using reusable
+          components, REST API integration, React Router, and Context API.
+          Passionate about writing clean, maintainable code and continuously
+          learning new technologies to build scalable web applications.
         </p>
       </section>
 
@@ -36,35 +55,39 @@ const Resume = () => {
         <div className="job">
           <h3>Frontend Developer</h3>
           <p className="job-details">
-            Tech Kshatriyas, Vijayawada | Jan 2025 - Mar 2025
+            Tech Kshatriyas, Vijayawada | Jan 2025 – Mar 2025
           </p>
+
           <ul>
             <li>
               Developed the official company website using Next.js and
-              TypeScript, achieving a 92/100 Google PageSpeed score.
+              TypeScript, achieving a Google PageSpeed score of 92/100.
             </li>
+
             <li>
-              Built modular and reusable UI components using TailwindCSS, which
-              improved development efficiency by 25% and ensured consistent
-              design across the application.
+              Built reusable UI components using Tailwind CSS, improving
+              development efficiency and maintaining consistent design across
+              the application.
             </li>
           </ul>
         </div>
 
         <div className="job">
           <h3>Frontend Developer</h3>
+
           <p className="job-details">
-            Comfort Floors & Bathrooms Ltd, Ireland | Nov 2024 - Jan 2025
+            Comfort Floors & Bathrooms Ltd, Ireland | Nov 2024 – Jan 2025
           </p>
+
           <ul>
             <li>
-              Developed a workflow management system that reduced manual
-              operations by approximately 8 hours per week.
+              Developed a workflow management system that reduced manual work by
+              approximately 8 hours per week.
             </li>
+
             <li>
-              Designed and implemented responsive UI modules along with backend
-              integrations, supporting more than 20 active users and enhancing
-              overall system usability.
+              Designed responsive UI modules and integrated backend APIs,
+              improving usability for over 20 active users.
             </li>
           </ul>
         </div>
@@ -74,85 +97,113 @@ const Resume = () => {
         <h2>Projects</h2>
 
         <div className="job">
-          <h3>Digital Detox Tracker</h3>
-          <p className="job-details">HTML, CSS, JavaScript, REST APIs</p>
+          <h3>User Management Dashboard</h3>
+
+          <p className="job-details">
+            React.js | Vite | React Router | Context API | CSS3 | REST API
+          </p>
+
           <p>
-            This responsive web application helps users monitor their digital
-            habits and set personalized wellness goals. It utilizes CSS
-            variables to provide a seamless light and dark mode toggle. Under
-            the hood, it relies on vanilla JavaScript to handle real-time form
-            validation and usage tracking. Additionally, it integrates a
-            third-party REST API through a proxy to bypass CORS restrictions,
-            delivering dynamic book recommendations as healthy alternatives to
-            screen time.
+            Developed a responsive React application that fetches and manages
+            user data from the JSONPlaceholder REST API. Implemented real-time
+            search, alphabetical sorting, detailed user profile pages, reusable
+            components, and global state management using Context API. Designed
+            a fully responsive interface optimized for mobile, tablet, and
+            desktop devices.
           </p>
         </div>
 
         <div className="job">
-          <h3>Wonderlust - House Rental Platform</h3>
-          <p className="job-details">EJS, Express, Node.js, MongoDB</p>
+          <h3>Wonderlust – House Rental Platform</h3>
+
+          <p className="job-details">
+            Node.js | Express.js | MongoDB | EJS
+          </p>
+
           <p>
-            Wonderlust is a full-featured rental marketplace built with a clean
-            MVC architecture. It supports a complete property listing and
-            booking flow, robust user authentication, and community reviews. To
-            enhance the user experience and platform navigation, the application
-            includes advanced location filtering, dynamic image gallery uploads,
-            personalized wishlists, and secure booking logic.
+            Built a full-stack rental marketplace following the MVC
+            architecture. Implemented secure authentication, property listings,
+            booking functionality, review management, image uploads,
+            location-based filtering, and personalized wishlists to provide a
+            seamless rental experience.
           </p>
         </div>
 
         <div className="job">
           <h3>Personal Portfolio</h3>
-          <p className="job-details">Reactjs</p>
+
+          <p className="job-details">
+            React.js | Vite | React Router | CSS3
+          </p>
+
           <p>
-            Developed a responsive portfolio web application to showcase
-            projects and skills using React.js. Implemented component-based
-            architecture, client-side routing with React Router, and optimized
-            performance using Vite. Designed a clean, ensuring cross-device
-            compatibility and reusable components.
+            Developed a modern portfolio website showcasing projects, technical
+            skills, and professional experience. Built reusable React
+            components, implemented client-side routing with React Router, and
+            optimized performance using Vite while ensuring responsiveness
+            across all devices.
           </p>
         </div>
       </section>
 
       <section className="resume-section">
         <h2>Education</h2>
+
         <div className="education-item">
           <h3>B.Tech in Computer Science and Engineering</h3>
+
           <p className="education-details">
-            JNTUA College of Engineering, Pulivendula | 2022 - 2025 | CGPA: 7.25
+            JNTUA College of Engineering, Pulivendula | 2022 – 2025 | CGPA:
+            7.25
           </p>
         </div>
+
         <div className="education-item">
           <h3>Diploma in Computer Engineering</h3>
+
           <p className="education-details">
-            Loyola Polytechnic (YSRR), Pulivendula | 2019 - 2022 | Percentage:
+            Loyola Polytechnic (YSRR), Pulivendula | 2019 – 2022 | Percentage:
             74.52%
           </p>
         </div>
+
         <div className="education-item">
           <h3>SSC</h3>
+
           <p className="education-details">
-            Narayana EM School, Vempalli | 2018 - 2019 | GPA: 8.8
+            Narayana EM School, Vempalli | 2018 – 2019 | GPA: 8.8
           </p>
         </div>
       </section>
 
       <section className="resume-section">
         <h2>Technical Skills</h2>
+
         <ul className="skills-list">
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript (ES6+)</li>
           <li>React.js</li>
+          <li>React Router</li>
+          <li>Context API</li>
+          <li>Vite</li>
           <li>Bootstrap</li>
-          <li>Git & GitHub</li>
+          <li>Tailwind CSS</li>
+          <li>REST APIs</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>MongoDB</li>
+          <li>Git</li>
+          <li>GitHub</li>
           <li>VS Code</li>
-          <li>Render & Netlify</li>
+          <li>Netlify</li>
+          <li>Vercel</li>
         </ul>
       </section>
 
       <section className="resume-section">
         <h2>Certifications</h2>
+
         <ul>
           <li>NPTEL: Privacy and Security in Online Social Media</li>
           <li>NPTEL: Social Innovation in Industry 4.0</li>

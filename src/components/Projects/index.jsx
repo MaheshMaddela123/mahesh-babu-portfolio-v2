@@ -3,28 +3,41 @@ import "./index.css";
 const Projects = () => {
   const projectList = [
     {
-      id: 3,
-      title: "Digital Detox Tracker",
-      tagline: "Wellness Web Application",
-      techStack: ["HTML5", "CSS3", "JavaScript", "REST APIs"],
-      description:
-        "A responsive web application helping users monitor digital habits and set wellness goals. Features a seamless light/dark mode toggle using CSS variables, real-time form validation with Vanilla JS, and dynamic book recommendations via a third-party REST API integrated through a CORS proxy.",
-    },
-    {
-      id: 2,
+      id: 1,
       title: "Wonderlust - House Rental Platform",
       tagline: "Full-Stack Marketplace",
       techStack: ["EJS", "Express.js", "Node.js", "MongoDB"],
       description:
-        "A full-featured rental marketplace built with a clean MVC architecture. It supports property listings, booking flows, robust user authentication, and community reviews. Includes advanced location filtering, dynamic image gallery uploads, and personalized wishlists.",
+        "A full-featured rental marketplace built with a clean MVC architecture. It supports property listings, booking flows, secure user authentication, community reviews, advanced location filtering, image uploads, and personalized wishlists.",
+      liveLink: "https://your-live-demo-link.com",
+      githubLink: "https://github.com/MaheshMaddela123/Wonderlust",
     },
     {
-      id: 1,
-      title: "Personal Portfolio",
-      tagline: "Reactjs Web Application",
-      techStack: ["React.js"],
+      id: 2,
+      title: "User Management Dashboard",
+      tagline: "React Web Application",
+      techStack: [
+        "React.js",
+        "Vite",
+        "React Router",
+        "Context API",
+        "CSS3",
+        "REST API",
+      ],
       description:
-        "Developed a responsive portfolio web application to showcase projects and skills using React.js. Implemented component-based architecture, client-side routing with React Router, and optimized performance using Vite. Designed a clean, ensuring cross-device compatibility and reusable components.",
+        "A responsive React application that fetches and manages user data from the JSONPlaceholder API. Implemented real-time search, alphabetical sorting, detailed user profile pages, global state management using Context API, reusable components, and a fully responsive interface with custom CSS.",
+      liveLink: "https://user-dashboard-1pxf.vercel.app/",
+      githubLink: "https://github.com/MaheshMaddela123/user-dashboard",
+    },
+    {
+      id: 3,
+      title: "Personal Portfolio",
+      tagline: "React Portfolio Website",
+      techStack: ["React.js", "Vite", "CSS3"],
+      description:
+        "Developed a responsive portfolio website to showcase my projects, technical skills, and professional experience. Built using reusable React components, client-side routing with React Router, modern UI design principles, and optimized performance with Vite for a seamless user experience across all devices.",
+      liveLink: "https://your-live-demo-link.com",
+      githubLink: "https://github.com/MaheshMaddela123/Portfolio",
     },
   ];
 
@@ -33,8 +46,9 @@ const Projects = () => {
       <header className="projects-header">
         <h2>Featured Projects</h2>
         <p>
-          A showcase of my recent web development work and technical
-          problem-solving.
+          A showcase of my recent web development projects demonstrating
+          frontend, full-stack, and responsive web application development
+          skills.
         </p>
       </header>
 
@@ -57,7 +71,7 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* <div className="project-links">
+              <div className="project-links">
                 <a
                   href={project.liveLink}
                   target="_blank"
@@ -66,6 +80,7 @@ const Projects = () => {
                 >
                   Live Demo
                 </a>
+
                 <a
                   href={project.githubLink}
                   target="_blank"
@@ -74,7 +89,7 @@ const Projects = () => {
                 >
                   View Source
                 </a>
-              </div> */}
+              </div>
             </div>
           </article>
         ))}

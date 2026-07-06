@@ -54,26 +54,6 @@ const Resume = () => {
 
         <div className="job">
           <h3>Frontend Developer</h3>
-          <p className="job-details">
-            Tech Kshatriyas, Vijayawada | Jan 2025 – Mar 2025
-          </p>
-
-          <ul>
-            <li>
-              Developed the official company website using Next.js and
-              TypeScript, achieving a Google PageSpeed score of 92/100.
-            </li>
-
-            <li>
-              Built reusable UI components using Tailwind CSS, improving
-              development efficiency and maintaining consistent design across
-              the application.
-            </li>
-          </ul>
-        </div>
-
-        <div className="job">
-          <h3>Frontend Developer</h3>
 
           <p className="job-details">
             Comfort Floors & Bathrooms Ltd, Ireland | Nov 2024 – Jan 2025

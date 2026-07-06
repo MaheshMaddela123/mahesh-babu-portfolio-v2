@@ -113,7 +113,7 @@ const Resume = () => {
           <h3>Personal Portfolio</h3>
 
           <p className="job-details">
-            React.js | Vite | React Router | CSS3
+            React.js | Vite | CSS3
           </p>
 
           <p>
@@ -165,14 +165,10 @@ const Resume = () => {
           <li>JavaScript (ES6+)</li>
           <li>React.js</li>
           <li>React Router</li>
+           <li>React Hooks</li>
           <li>Context API</li>
           <li>Vite</li>
-          <li>Bootstrap</li>
           <li>Tailwind CSS</li>
-          <li>REST APIs</li>
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>MongoDB</li>
           <li>Git</li>
           <li>GitHub</li>
           <li>VS Code</li>

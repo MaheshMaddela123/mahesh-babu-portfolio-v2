@@ -1,34 +1,59 @@
-import './index.css';
+import "./index.css";
 
 const Skills = () => {
-    // Focused exclusively on your frontend tech stack
-    const frontendSkills = [
-        "HTML5", 
-        "CSS3", 
-        "JavaScript (ES6+)", 
-        "React.js", 
-        "TailwindCSS", 
-        "Bootstrap"
-    ];
+  const skills = {
+    Frontend: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "React.js",
+      "React Router",
+      "Context API",
+      "Vite",
+      "Bootstrap",
+      "Tailwind CSS",
+    ],
+    Backend: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+    ],
+    Tools: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Netlify",
+      "Vercel",
+    ],
+  };
 
-    return (
-        <div className="skills-page-container">
-            <header className="skills-header">
-                <h2>Frontend Skills</h2>
-                <p>My core expertise in building responsive, accessible, and interactive user interfaces.</p>
-            </header>
+  return (
+    <div className="skills-page-container">
+      <header className="skills-header">
+        <h2>Technical Skills</h2>
+        <p>
+          Technologies and tools I use to build scalable and responsive web
+          applications.
+        </p>
+      </header>
 
-            <div className="frontend-skills-wrapper">
-                <ul className="skill-tags large-tags">
-                    {frontendSkills.map((skill, idx) => (
-                        <li key={idx} className="skill-tag">
-                            {skill}
-                        </li>
-                    ))}
-                </ul>
-            </div>
+      {Object.entries(skills).map(([category, skillList]) => (
+        <div key={category} className="frontend-skills-wrapper">
+          <h3>{category}</h3>
+
+          <ul className="skill-tags large-tags">
+            {skillList.map((skill) => (
+              <li key={skill} className="skill-tag">
+                {skill}
+              </li>
+            ))}
+          </ul>
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
 export default Skills;

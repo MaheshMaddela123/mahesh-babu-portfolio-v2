@@ -14,12 +14,6 @@ const Skills = () => {
       "Bootstrap",
       "Tailwind CSS",
     ],
-    Backend: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "REST APIs",
-    ],
     Tools: [
       "Git",
       "GitHub",

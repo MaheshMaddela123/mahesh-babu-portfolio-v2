@@ -9,7 +9,7 @@ const Projects = () => {
       techStack: ["EJS", "Express.js", "Node.js", "MongoDB"],
       description:
         "A full-featured rental marketplace built with a clean MVC architecture. It supports property listings, booking flows, secure user authentication, community reviews, advanced location filtering, image uploads, and personalized wishlists.",
-      liveLink: "https://your-live-demo-link.com",
+      liveLink: "https://wunderlust-ck0m.onrender.com/listings",
       githubLink: "https://github.com/MaheshMaddela123/Wonderlust",
     },
     {
@@ -36,7 +36,7 @@ const Projects = () => {
       techStack: ["React.js", "Vite", "CSS3"],
       description:
         "Developed a responsive portfolio website to showcase my projects, technical skills, and professional experience. Built using reusable React components, client-side routing with React Router, modern UI design principles, and optimized performance with Vite for a seamless user experience across all devices.",
-      liveLink: "https://your-live-demo-link.com",
+      liveLink: "https://mahesh-babu-portfolio-v3.onrender.com",
       githubLink: "https://github.com/MaheshMaddela123/Portfolio",
     },
   ];

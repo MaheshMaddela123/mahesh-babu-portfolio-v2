@@ -2,16 +2,24 @@ import "./index.css";
 
 const Skills = () => {
   const skills = {
-    Frontend: [
-      "HTML5",
-      "CSS3",
+    "Programming Languages": [
       "JavaScript (ES6+)",
+      "Python",
+    ],
+    Frontend: [
       "React.js",
+      "React Hooks",
       "React Router",
       "Context API",
-      "Vite",
-      "Bootstrap",
+      "HTML5",
+      "CSS3",
       "Tailwind CSS",
+      "Bootstrap",
+      "Vite",
+      "Responsive Design",
+    ],
+    "Databases": [
+      "SQLite",
     ],
     Tools: [
       "Git",
@@ -34,8 +42,7 @@ const Skills = () => {
 
       {Object.entries(skills).map(([category, skillList]) => (
         <div key={category} className="frontend-skills-wrapper">
-          <h3>{category}</h3>
-
+          <h3 className="skill-category-title">{category}</h3>
           <ul className="skill-tags large-tags">
             {skillList.map((skill) => (
               <li key={skill} className="skill-tag">

@@ -159,22 +159,49 @@ const Resume = () => {
       <section className="resume-section">
         <h2>Technical Skills</h2>
 
-        <ul className="skills-list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript (ES6+)</li>
-          <li>React.js</li>
-          <li>React Router</li>
-           <li>React Hooks</li>
-          <li>Context API</li>
-          <li>Vite</li>
-          <li>Tailwind CSS</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>VS Code</li>
-          <li>Netlify</li>
-          <li>Vercel</li>
-        </ul>
+        <div className="skills-category">
+          <h3>Programming Languages</h3>
+          <ul className="skills-list">
+            <li>JavaScript (ES6+)</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div className="skills-category">
+          <h3>Frontend</h3>
+          <ul className="skills-list">
+            <li>React.js</li>
+            <li>React Hooks</li>
+            <li>React Router</li>
+            <li>Context API</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Tailwind CSS</li>
+            <li>Vite</li>
+          </ul>
+        </div>
+
+        <div className="skills-category">
+          <h3>Backend & Databases</h3>
+          <ul className="skills-list">
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>SQLite</li>
+            <li>REST API Integration</li>
+          </ul>
+        </div>
+
+        <div className="skills-category">
+          <h3>Tools & Deployment</h3>
+          <ul className="skills-list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li>Netlify</li>
+            <li>Vercel</li>
+          </ul>
+        </div>
       </section>
 
       <section className="resume-section">

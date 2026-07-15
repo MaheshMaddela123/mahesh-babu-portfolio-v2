@@ -182,13 +182,9 @@ const Resume = () => {
         </div>
 
         <div className="skills-category">
-          <h3>Backend & Databases</h3>
+          <h3>Databases</h3>
           <ul className="skills-list">
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
             <li>SQLite</li>
-            <li>REST API Integration</li>
           </ul>
         </div>
 

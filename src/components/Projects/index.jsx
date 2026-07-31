@@ -10,7 +10,7 @@ const Projects = () => {
       description:
         "A full-featured rental marketplace built with a clean MVC architecture. It supports property listings, booking flows, secure user authentication, community reviews, advanced location filtering, image uploads, and personalized wishlists.",
       liveLink: "https://wunderlust-ck0m.onrender.com/listings",
-      githubLink: "https://github.com/MaheshMaddela123/Wonderlust",
+      githubLink: "https://github.com/MaheshMaddela123/major-project-1.git",
     },
     {
       id: 2,

@@ -10,7 +10,7 @@ const HeroLeftSide = () => {
           </div>
 
           <h1>
-            I'm <span className="username">Maddela Mahesh Babu</span>🙌
+            I'm <span className="username"> Maddela Mahesh Babu</span>🙌
           </h1>
 
           <p className="para">
